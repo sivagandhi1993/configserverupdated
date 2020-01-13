@@ -1,0 +1,24 @@
+server:
+  port: 8888
+spring:
+  profiles:
+    active: dev
+  application:
+    name: configserver
+  cloud:
+    config:
+      server:
+        bootstrap: true
+        git:
+          uri:
+          username: sivagandhi1993
+          password: Rakasi@1993
+          search-paths:
+            - configclient
+management:
+  security:
+    enabled: false
+  endpoints:
+    web:
+      exposure:
+        includes: "*"
