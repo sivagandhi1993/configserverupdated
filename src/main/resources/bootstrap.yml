@@ -10,7 +10,7 @@ spring:
       server:
         bootstrap: true
         git:
-          uri:
+          uri: https://github.com/sivagandhi1993/configserverupdated.git
           username: sivagandhi1993
           password: Rakasi@1993
           search-paths:
